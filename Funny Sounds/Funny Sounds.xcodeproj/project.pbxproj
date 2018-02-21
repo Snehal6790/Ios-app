@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		361AF018203560270074E431 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361AF017203560270074E431 /* PlaySoundsViewController.swift */; };
+		36724FEB20348E97003A60E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36724FEA20348E97003A60E4 /* AppDelegate.swift */; };
+		36724FED20348E97003A60E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36724FEC20348E97003A60E4 /* ViewController.swift */; };
+		36724FF020348E97003A60E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36724FEE20348E97003A60E4 /* Main.storyboard */; };
+		36724FF220348E97003A60E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36724FF120348E97003A60E4 /* Assets.xcassets */; };
+		36724FF520348E97003A60E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36724FF320348E97003A60E4 /* LaunchScreen.storyboard */; };
+		3672500020348E97003A60E4 /* Funny_SoundsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36724FFF20348E97003A60E4 /* Funny_SoundsTests.swift */; };
+		3672500B20348E97003A60E4 /* Funny_SoundsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3672500A20348E97003A60E4 /* Funny_SoundsUITests.swift */; };
+		36C290F9203BFA5B00B0FD28 /* olp.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 36C290F8203BFA5B00B0FD28 /* olp.mp3 */; };
+		36C290FB203C37EE00B0FD28 /* RecordedAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C290FA203C37EE00B0FD28 /* RecordedAudio.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36724FFC20348E97003A60E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36724FDF20348E97003A60E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36724FE620348E97003A60E4;
+			remoteInfo = "Funny Sounds";
+		};
+		3672500720348E97003A60E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36724FDF20348E97003A60E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36724FE620348E97003A60E4;
+			remoteInfo = "Funny Sounds";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		361AF017203560270074E431 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlaySoundsViewController.swift; path = ../PlaySoundsViewController.swift; sourceTree = "<group>"; };
+		36724FE720348E97003A60E4 /* Funny Sounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Funny Sounds.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36724FEA20348E97003A60E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		36724FEC20348E97003A60E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		36724FEF20348E97003A60E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36724FF120348E97003A60E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36724FF420348E97003A60E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		36724FF620348E97003A60E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36724FFB20348E97003A60E4 /* Funny SoundsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Funny SoundsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36724FFF20348E97003A60E4 /* Funny_SoundsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Funny_SoundsTests.swift; sourceTree = "<group>"; };
+		3672500120348E97003A60E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3672500620348E97003A60E4 /* Funny SoundsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Funny SoundsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3672500A20348E97003A60E4 /* Funny_SoundsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Funny_SoundsUITests.swift; sourceTree = "<group>"; };
+		3672500C20348E97003A60E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36C290F8203BFA5B00B0FD28 /* olp.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = olp.mp3; sourceTree = "<group>"; };
+		36C290FA203C37EE00B0FD28 /* RecordedAudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordedAudio.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36724FE420348E97003A60E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36724FF820348E97003A60E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3672500320348E97003A60E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36724FDE20348E97003A60E4 = {
+			isa = PBXGroup;
+			children = (
+				36724FE920348E97003A60E4 /* Funny Sounds */,
+				36724FFE20348E97003A60E4 /* Funny SoundsTests */,
+				3672500920348E97003A60E4 /* Funny SoundsUITests */,
+				36724FE820348E97003A60E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36724FE820348E97003A60E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36724FE720348E97003A60E4 /* Funny Sounds.app */,
+				36724FFB20348E97003A60E4 /* Funny SoundsTests.xctest */,
+				3672500620348E97003A60E4 /* Funny SoundsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36724FE920348E97003A60E4 /* Funny Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				36C290F8203BFA5B00B0FD28 /* olp.mp3 */,
+				36724FEA20348E97003A60E4 /* AppDelegate.swift */,
+				36724FEC20348E97003A60E4 /* ViewController.swift */,
+				361AF017203560270074E431 /* PlaySoundsViewController.swift */,
+				36724FEE20348E97003A60E4 /* Main.storyboard */,
+				36724FF120348E97003A60E4 /* Assets.xcassets */,
+				36724FF320348E97003A60E4 /* LaunchScreen.storyboard */,
+				36724FF620348E97003A60E4 /* Info.plist */,
+				36C290FA203C37EE00B0FD28 /* RecordedAudio.swift */,
+			);
+			path = "Funny Sounds";
+			sourceTree = "<group>";
+		};
+		36724FFE20348E97003A60E4 /* Funny SoundsTests */ = {
+			isa = PBXGroup;
+			children = (
+				36724FFF20348E97003A60E4 /* Funny_SoundsTests.swift */,
+				3672500120348E97003A60E4 /* Info.plist */,
+			);
+			path = "Funny SoundsTests";
+			sourceTree = "<group>";
+		};
+		3672500920348E97003A60E4 /* Funny SoundsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3672500A20348E97003A60E4 /* Funny_SoundsUITests.swift */,
+				3672500C20348E97003A60E4 /* Info.plist */,
+			);
+			path = "Funny SoundsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36724FE620348E97003A60E4 /* Funny Sounds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3672500F20348E97003A60E4 /* Build configuration list for PBXNativeTarget "Funny Sounds" */;
+			buildPhases = (
+				36724FE320348E97003A60E4 /* Sources */,
+				36724FE420348E97003A60E4 /* Frameworks */,
+				36724FE520348E97003A60E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Funny Sounds";
+			productName = "Funny Sounds";
+			productReference = 36724FE720348E97003A60E4 /* Funny Sounds.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36724FFA20348E97003A60E4 /* Funny SoundsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3672501220348E97003A60E4 /* Build configuration list for PBXNativeTarget "Funny SoundsTests" */;
+			buildPhases = (
+				36724FF720348E97003A60E4 /* Sources */,
+				36724FF820348E97003A60E4 /* Frameworks */,
+				36724FF920348E97003A60E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36724FFD20348E97003A60E4 /* PBXTargetDependency */,
+			);
+			name = "Funny SoundsTests";
+			productName = "Funny SoundsTests";
+			productReference = 36724FFB20348E97003A60E4 /* Funny SoundsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3672500520348E97003A60E4 /* Funny SoundsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3672501520348E97003A60E4 /* Build configuration list for PBXNativeTarget "Funny SoundsUITests" */;
+			buildPhases = (
+				3672500220348E97003A60E4 /* Sources */,
+				3672500320348E97003A60E4 /* Frameworks */,
+				3672500420348E97003A60E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3672500820348E97003A60E4 /* PBXTargetDependency */,
+			);
+			name = "Funny SoundsUITests";
+			productName = "Funny SoundsUITests";
+			productReference = 3672500620348E97003A60E4 /* Funny SoundsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36724FDF20348E97003A60E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = snehal.io;
+				TargetAttributes = {
+					36724FE620348E97003A60E4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					36724FFA20348E97003A60E4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 36724FE620348E97003A60E4;
+					};
+					3672500520348E97003A60E4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 36724FE620348E97003A60E4;
+					};
+				};
+			};
+			buildConfigurationList = 36724FE220348E97003A60E4 /* Build configuration list for PBXProject "Funny Sounds" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36724FDE20348E97003A60E4;
+			productRefGroup = 36724FE820348E97003A60E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36724FE620348E97003A60E4 /* Funny Sounds */,
+				36724FFA20348E97003A60E4 /* Funny SoundsTests */,
+				3672500520348E97003A60E4 /* Funny SoundsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36724FE520348E97003A60E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36C290F9203BFA5B00B0FD28 /* olp.mp3 in Resources */,
+				36724FF520348E97003A60E4 /* LaunchScreen.storyboard in Resources */,
+				36724FF220348E97003A60E4 /* Assets.xcassets in Resources */,
+				36724FF020348E97003A60E4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36724FF920348E97003A60E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3672500420348E97003A60E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36724FE320348E97003A60E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36C290FB203C37EE00B0FD28 /* RecordedAudio.swift in Sources */,
+				36724FED20348E97003A60E4 /* ViewController.swift in Sources */,
+				361AF018203560270074E431 /* PlaySoundsViewController.swift in Sources */,
+				36724FEB20348E97003A60E4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36724FF720348E97003A60E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3672500020348E97003A60E4 /* Funny_SoundsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3672500220348E97003A60E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3672500B20348E97003A60E4 /* Funny_SoundsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36724FFD20348E97003A60E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36724FE620348E97003A60E4 /* Funny Sounds */;
+			targetProxy = 36724FFC20348E97003A60E4 /* PBXContainerItemProxy */;
+		};
+		3672500820348E97003A60E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36724FE620348E97003A60E4 /* Funny Sounds */;
+			targetProxy = 3672500720348E97003A60E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36724FEE20348E97003A60E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36724FEF20348E97003A60E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		36724FF320348E97003A60E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36724FF420348E97003A60E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3672500D20348E97003A60E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3672500E20348E97003A60E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3672501020348E97003A60E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H58KQE66K3;
+				INFOPLIST_FILE = "Funny Sounds/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sound.Funny-Sounds";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3672501120348E97003A60E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H58KQE66K3;
+				INFOPLIST_FILE = "Funny Sounds/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sound.Funny-Sounds";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3672501320348E97003A60E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H58KQE66K3;
+				INFOPLIST_FILE = "Funny SoundsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sound.Funny-SoundsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Funny Sounds.app/Funny Sounds";
+			};
+			name = Debug;
+		};
+		3672501420348E97003A60E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H58KQE66K3;
+				INFOPLIST_FILE = "Funny SoundsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sound.Funny-SoundsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Funny Sounds.app/Funny Sounds";
+			};
+			name = Release;
+		};
+		3672501620348E97003A60E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H58KQE66K3;
+				INFOPLIST_FILE = "Funny SoundsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sound.Funny-SoundsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Funny Sounds";
+			};
+			name = Debug;
+		};
+		3672501720348E97003A60E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H58KQE66K3;
+				INFOPLIST_FILE = "Funny SoundsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sound.Funny-SoundsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Funny Sounds";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36724FE220348E97003A60E4 /* Build configuration list for PBXProject "Funny Sounds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3672500D20348E97003A60E4 /* Debug */,
+				3672500E20348E97003A60E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3672500F20348E97003A60E4 /* Build configuration list for PBXNativeTarget "Funny Sounds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3672501020348E97003A60E4 /* Debug */,
+				3672501120348E97003A60E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3672501220348E97003A60E4 /* Build configuration list for PBXNativeTarget "Funny SoundsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3672501320348E97003A60E4 /* Debug */,
+				3672501420348E97003A60E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3672501520348E97003A60E4 /* Build configuration list for PBXNativeTarget "Funny SoundsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3672501620348E97003A60E4 /* Debug */,
+				3672501720348E97003A60E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36724FDF20348E97003A60E4 /* Project object */;
+}
